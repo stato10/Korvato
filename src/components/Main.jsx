@@ -8,6 +8,15 @@ const logo2 = "https://res.cloudinary.com/dpz2lh8hu/image/upload/v1723662933/log
 const urlTreader = "https://res.cloudinary.com/dpz2lh8hu/image/upload/v1723568585/nsplsh_5654347278373735465434mv2_jnz7ww.webp";
 
 const Main = () => {
+
+  const scrollToEmailInput = () => {
+    const emailInputSection = document.querySelector(".costumerInput");
+    if (emailInputSection) {
+      emailInputSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   return (
     <div className="pt-32">
       <div
@@ -36,9 +45,11 @@ const Main = () => {
               ></iframe>
             </div>
 
+            
+
             <a
               className="inline-block rounded bg-[rgb(15,255,219)] px-8 py-3 text-2xl text-black font-bold transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500"
-              href={urlTreader}
+              href={scrollToEmailInput}
             >
              בואו לסחור איתנו!
               <br></br>
