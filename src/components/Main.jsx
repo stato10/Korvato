@@ -73,14 +73,14 @@ const Main = () => {
 
             
 
-            <a
+            {/* <a
               className="inline-block rounded bg-[rgb(15,255,219)] px-8 py-3 text-2xl text-black font-bold transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500"
               href={urlTreader}
             >
              בואו לסחור איתנו!
               <br></br>
               <span className="text-base">*הצטרפו לאלפי לקוחות מרוצים*</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
