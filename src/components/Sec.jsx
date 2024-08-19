@@ -17,7 +17,7 @@ const Sec = () => {
         </p>
 
         <h3 className="text-lg font-semibold mb-6">
-        3 שנים של תוצאות מוכחות !
+       ! שנים של תוצאות מוכחות 3
           <FontAwesomeIcon icon={faCheckCircle} className="text-teal-400 ml-2" />
           <p className="text-lg leading-relaxed mb-6">
            FX BLUE צד שלישי מאומת על ידי 

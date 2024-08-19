@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 
 const logo2 = "https://res.cloudinary.com/dpz2lh8hu/image/upload/v1723662933/logo2_x8jjcl.png";
-const urlTreader = "https://res.cloudinary.com/dpz2lh8hu/image/upload/v1723568585/nsplsh_5654347278373735465434mv2_jnz7ww.webp";
+// const urlTreader = "https://res.cloudinary.com/dpz2lh8hu/image/upload/v1723568585/nsplsh_5654347278373735465434mv2_jnz7ww.webp";
 
 const Main = () => {
 
@@ -71,16 +71,15 @@ const Main = () => {
               ></iframe>
             </div>
 
-            
-
-            {/* <a
+            <a
               className="inline-block rounded bg-[rgb(15,255,219)] px-8 py-3 text-2xl text-black font-bold transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500"
               href={urlTreader}
             >
              בואו לסחור איתנו!
               <br></br>
               <span className="text-base">*הצטרפו לאלפי לקוחות מרוצים*</span>
-            </a> */}
+            </a>
+            
           </div>
         </div>
       </div>
