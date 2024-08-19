@@ -1,4 +1,7 @@
 import React from 'react';
+import {fadeIn} from '../components/variants';
+import {motion} from 'framer-motion';
+
 
 
 function Component() {
@@ -24,7 +27,13 @@ const SecRocket = () => {
         </p>
 
         <div className="flex flex-col md:flex-row items-center mb-6">
-          <div className="md:w-1/2 md:pr-6">
+          <motion.div 
+          variants={fadeIn("left",0.5)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount:0.2}}
+          
+          className="md:w-1/2 md:pr-6">
             <ul className="list-disc list-inside">
               <li className="text-lg leading-relaxed mb-3">
                 בינה מלאכותית ייחודית למסחר בעלת ביצועים גבוהים הניצבת בחזית הטכנולוגיה הפיננסית.
@@ -42,11 +51,17 @@ const SecRocket = () => {
                 מציע גישה פשוטה למסחר אלגוריתמי, תוך התמקדות אך ורק בביצועים.
               </li>
             </ul>
-          </div>
-          <div   
+          </motion.div>
+          <motion.div  
+          variants={fadeIn("up",0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount:0.2}}
+
+
             className="md:w-1/2 md:pl-6 ">
             <img  src={rocketImage} alt="Rocket Image" className="mx-auto" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
