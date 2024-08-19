@@ -44,8 +44,7 @@ const Main = () => {
 
 
 
-        <br />
-        *הצטרפו לאלפי לקוחות מרוצים*
+              *הצטרפו לאלפי לקוחות מרוצים*
         
       </button>
     );
@@ -81,7 +80,7 @@ const Main = () => {
               ></iframe>
             </div>
 
-            {/* <Button2 onClick={scrollToEmailInput}></Button2> */}
+            <Button2 onClick={scrollToEmailInput}></Button2>
             
           </div>
         </div>
