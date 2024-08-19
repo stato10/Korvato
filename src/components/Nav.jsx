@@ -16,7 +16,7 @@ const Nav = () => {
   return (
 
     
-    <div className="navbar-container z-50">
+    <div className="navbar-container z-50 w-[100%]">
       <div className="navbar shadow-lg text-white p-4 flex justify-between items-center">
         {/* Left side: FX Blue Button */}
         <div className="navbar-end">

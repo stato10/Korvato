@@ -19,10 +19,11 @@ export default function Features() {
   };
 
   return (
-    <Container  id="features" sx={{ py: { xs: 8, sm: 16 } }}>
+    <Container id="features" sx={{ py: { xs: 8, sm: 16 } }}>
       <Grid container spacing={6}>
         <Grid item xs={12} md={6}>
-          <Card data-aos="zoom-out-left"
+          <Card
+            
             sx={{
               borderRadius: '12px',
               border: '1px solid #2d2d2d',
@@ -40,22 +41,21 @@ export default function Features() {
               height: '100%',
             }}
           >
-            <img className='hoverr'
+            <img
               src={img} 
               alt="גרף" 
               style={{ 
-                
                 borderRadius: '8px', 
                 width: '100%', 
                 height: 'auto', 
-                objectFit: 'contain',  // שמירה על יחס הגובה-רוחב
+                objectFit: 'contain',
                 boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-                maxHeight: '350px',  // מגבלת גובה כדי לשמור על חדות התמונה
+                maxHeight: '350px', 
               }} 
             />
           </Card>
         </Grid>
-        <Grid  item xs={12} md={6}>
+        <Grid item xs={12} md={6}>
           <Stack
             direction="column"
             justifyContent="center"
@@ -63,16 +63,25 @@ export default function Features() {
             spacing={2}
             sx={{ width: '100%' }}
           >
-            <Typography data-aos="fade-right" variant="h4" color="white" fontWeight="bold" align="right">
+            <Typography  variant="h4" color="white" fontWeight="bold" align="right">
               כעת, גם אתם יכולים לרכוש את הזמן, האנרגיה והמומחיות שלנו
             </Typography>
-            <Typography data-aos="fade-right" variant="body1" color="white" align="right">
-              • שימוש במערכות המתקדמות ביותר בשוק<br />
-              • תמיכה של צוות מקצועי וזמין 24/7<br />
-              • מתן גישה חופשית ללקוחות לפרמטרים המסחריים<br />
-              • פיתוחים ועדכונים שוטפים בהתאם לשינויים בשוק
+            <Typography  variant="body1" color="white" fontWeight="bold" align="right">
+            למי זה מתאים?
+תוכנית זו מושלמת עבור אנשים שמוכנים להעלות את אסטרטגיית ההשקעה שלהם, ומעוניינים לגוון את ההכנסות וההשקעות שלהם. אין צורך בניסיון קודם במסחר. רבים מחברי הקהילה שלנו מעולם לא סחרו או השתמשו באלגוריתמים לפני כן. 
+אם זה נשמע לכם, הנה מה שאנחנו מציעים:
             </Typography>
-            <Button2 data-aos="fade-right" onClick={scrollToEmailInput} />
+            <Typography  variant="body1" color="white" align="right">
+              • שימוש במערכות המתקדמות ביותר בשוק.<br />
+              • תמיכה של צוות מקצועי וזמין 24/7.<br />
+              • מתן גישה חופשית ללקוחות לפרמטרים המסחריים.<br />
+              • פיתוחים ועדכונים שוטפים בהתאם לשינויים בשוק.
+            </Typography>
+            
+            <Typography  variant="body2" color="white" fontWeight="bold" align="right">
+            האלגוריתמים שלנו פועלים מסביב לשעון בכל פעם ששוק המט"ח פתוח, למעט סופי שבוע וחגים.
+                        </Typography>
+            <Button2  onClick={scrollToEmailInput} />
           </Stack>
         </Grid>
       </Grid>
@@ -85,13 +94,24 @@ export default function Features() {
             spacing={2}
             sx={{ width: '100%' }}
           >
-            <Typography data-aos="zoom-out-left" variant="h5" color="white" fontWeight="bold" align="right">
-              כעת, גם אתם יכולים להצטרף להצלחה שלנו
+            <Typography  variant="h5" color="white" fontWeight="bold" align="right">
+            איך האלגוריתם שלנו עובד?
             </Typography>
-            <Typography data-aos="zoom-out-left" variant="body1" color="white" align="right">
-              • פלטפורמה חדשנית ומתקדמת<br />
-              • כלים מותאמים אישית לניהול מסחר<br />
-              • שילוב מערכות אוטומטיות ואינטגרציות חכמות
+            <Typography  variant="body1" color="white" align="right">
+         
+
+תוכנת המסחר של קורבטו ממנפת אינדיקטורים מבוססים וכללים מתוחכמים לביצוע עסקאות מדויקות. צוות פיתוח המוצרים ברמה עולמית שלנו עובד ללא לאות מאחורי הקלעים כדי לחדד, לכוון ולמטב את התוכנה שלנו, תוך הבטחת עקביות וניהול סיכונים יעיל.
+<br></br>
+לדוגמה, אנו ממליצים לא לבצע עסקאות בתנאי שוק תנודתיים מאוד כדי להגן על ההשקעות שלך.
+<br></br>
+<br></br>
+<Typography  variant="body2" color="white" fontWeight="bold" align="right">
+הרקורד המרשים שלנו
+            </Typography>
+אלגוריתמי המסחר של קורבטו הוכיחו הצלחה יוצאת דופן, הן בתוך החברה והן עבור למעלה מאלפי לקוחות בעלי הכנסה גבוהה. התוכנה שלנו סיפקה באופן עקבי תוצאות משמעותיות בחשבונות שלנו, ויש לנו המלצות זוהרות מלמעלה מ -800 לקוחות שחוו תוצאות מדהימות באמצעות קורבטו בחשבונות המסחר שלהם.
+<br></br>
+הנה כמה תוצאות מרשימות מחשבונות המסחר האישיים שלי, המופעלים על ידי אותם אלגוריתמים מתקדמים שפותחו על ידי צוות המומחים שלנו.
+
             </Typography>
           </Stack>
         </Grid>
@@ -114,12 +134,12 @@ export default function Features() {
               height: '100%',
             }}
           >
-            <img data-aos="fade-right"
+            <img
               src={img2} 
               alt="תמונה קטנה" 
               style={{ 
                 borderRadius: '8px', 
-                width: '50%',  // הקטנת רוחב התמונה השנייה יותר
+                width: '50%', 
                 height: 'auto', 
                 objectFit: 'cover', 
                 boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' 
@@ -128,6 +148,8 @@ export default function Features() {
           </Card>
         </Grid>
       </Grid>
+      <p className="mt-28 text-sm text-white">קורבטו אינה ישות ייעוץ פיננסי. או ייעוץ השקעות. אנו חלוצים בתוכנות מסחר, המציעים כלים המסייעים לסוחרים לנווט בשווקים. ההצלחה והצמיחה שהושגו על ידי חלק מהמשתמשים שלנו מושפעות ממספר רב של גורמים, ואיננו יכולים להבטיח תוצאות ספציפיות או רמות הצלחה עבור יישום תוכנה כלשהו. לקבלת מידע נוסף, עיין בכתב הוויתור המלא שלנו <a href="https://www.korvato.com/disclosure" className='underline'>כאן</a>.</p>
+
     </Container>
   );
 }

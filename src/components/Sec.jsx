@@ -6,7 +6,7 @@ import { faCheckCircle, faArrowRight, faUsers, faChartLine } from '@fortawesome/
 
 const Sec = () => {
   return (
-    <div data-aos="fade-left" className="welcome py-12 px-6 bg-gray-900 text-white ">
+    <div className="welcome py-12 px-6 bg-gray-900 text-white ">
       <div className="max-w-5xl mx-auto text-right">
         <h2 className="text-4xl font-bold mb-4">
          ברוכים הבאים לקורבטו
@@ -16,14 +16,16 @@ const Sec = () => {
           ללא צורך בכישורי מסחר מקצועיים או בהשקעת זמן משמעותית.
         </p>
 
-        <h3 className="text-lg font-semibold mb-6">
-         שנים של תוצאות מוכחות 3 !
-          <FontAwesomeIcon icon={faCheckCircle} className="text-teal-400 ml-2" />
-          <p className="text-lg leading-relaxed mb-6">
+        <h3 className="text-lg font-semibold mb-6"  style={{ direction: "rtl" }}>
+
+        <FontAwesomeIcon icon={faCheckCircle} className="text-teal-400 ml-2" />
+
+         3 שנים של תוצאות מוכחות
+         
+          <p className="text-lg leading-relaxed mb-6" style={{ direction: "ltr" }} >
            FX BLUE צד שלישי מאומת על ידי 
         </p>
         </h3>
-        
         <p className="text-lg leading-relaxed mb-6">
          
           צמיחה חודשית ממוצעת של : 14%-8%

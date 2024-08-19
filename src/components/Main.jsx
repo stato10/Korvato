@@ -122,7 +122,7 @@ const Main = () => {
             מספר טלפון
           </label>
           <input
-            type="tel"
+            type="text"
             name="phone"
             placeholder="מספר טלפון :"
             className="w-full rounded-md border-gray-200 bg-white p-3 text-black shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400"

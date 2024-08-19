@@ -45,7 +45,7 @@ const SecRocket = () => {
           </div>
           <div   
             className="md:w-1/2 md:pl-6 ">
-            <img data-aos="fade-up-right" src={rocketImage} alt="Rocket Image" className="mx-auto" />
+            <img  src={rocketImage} alt="Rocket Image" className="mx-auto" />
           </div>
         </div>
       </div>
