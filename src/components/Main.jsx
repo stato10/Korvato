@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 
 const logo2 = "https://res.cloudinary.com/dpz2lh8hu/image/upload/v1723662933/logo2_x8jjcl.png";
-// const urlTreader = "https://res.cloudinary.com/dpz2lh8hu/image/upload/v1723568585/nsplsh_5654347278373735465434mv2_jnz7ww.webp";
+const urlTreader = "https://res.cloudinary.com/dpz2lh8hu/image/upload/v1723568585/nsplsh_5654347278373735465434mv2_jnz7ww.webp";
 
 const Main = () => {
 
