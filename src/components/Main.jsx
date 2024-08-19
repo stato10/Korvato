@@ -11,15 +11,6 @@ const logo2 = "https://res.cloudinary.com/dpz2lh8hu/image/upload/v1723662933/log
 const Main = () => {
 
 
-  
-  const scrollToEmailInput = () => {
-    const emailInputSection = document.querySelector(".costumerInput");
-    if (emailInputSection) {
-      emailInputSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
-
   const Button2 = ({ onClick }) => {
     return (
       <button
@@ -44,7 +35,8 @@ const Main = () => {
 
 
 
-              *הצטרפו לאלפי לקוחות מרוצים*
+        <br />
+        *הצטרפו לאלפי לקוחות מרוצים*
         
       </button>
     );
@@ -80,7 +72,7 @@ const Main = () => {
               ></iframe>
             </div>
 
-            <Button2 onClick={scrollToEmailInput}></Button2>
+            <Button2></Button2>
             
           </div>
         </div>
