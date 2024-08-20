@@ -25,35 +25,40 @@ const Footer = () => {
               ונחזור אליכם בהקדם
             </p>
             <div className="mx-auto mt-8 max-w-xl">
-              <form action="https://api.web3forms.com/submit" method="POST" className="flex flex-col sm:flex-row sm:gap-4 items-center">
-                <div className="flex-1 w-full sm:w-auto">
-                  <input type="hidden" name="access_key" value="1a5918af-36de-4a09-9815-a6437734592d" />
-                  <label htmlFor="name" className="sr-only">
-                    שם פרטי
-                  </label>
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="שם פרטי :"
-                    className="w-full sm:w-auto rounded-md border-gray-200 bg-white p-3 text-black shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400"
-                    required
-                  />
-                </div>
-                <div className="flex-1 w-full sm:w-auto mt-4 sm:mt-0">
-                  <label htmlFor="phone" className="sr-only">
-                    מספר טלפון
-                  </label>
-                  <input
-                    type="text"
-                    name="phone"
-                    placeholder="מספר טלפון :"
-                    className="w-full sm:w-auto rounded-md border-gray-200 bg-white p-3 text-black shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400"
-                    required
-                  />
-                </div>
-              <Button2 type="submit" text="שלח" className="w-full sm:w-auto mt-4" />
-              </form>
-            </div>
+  <form
+    action="https://api.web3forms.com/submit"
+    method="POST"
+    className="flex flex-col gap-4 items-center"
+  >
+    <div className="flex-1 w-full">
+      <input type="hidden" name="access_key" value="1a5918af-36de-4a09-9815-a6437734592d" />
+      <label htmlFor="name" className="sr-only">
+        שם פרטי
+      </label>
+      <input
+        type="text"
+        name="name"
+        placeholder="שם פרטי :"
+        className="w-full rounded-md border-gray-200 bg-white p-3 text-black shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400"
+        required
+      />
+    </div>
+    <div className="flex-1 w-full">
+      <label htmlFor="phone" className="sr-only">
+        מספר טלפון
+      </label>
+      <input
+        type="text"
+        name="phone"
+        placeholder="מספר טלפון :"
+        className="w-full rounded-md border-gray-200 bg-white p-3 text-black shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400"
+        required
+      />
+    </div>
+    <Button2 type="submit" text="שלח" className="w-full" />
+  </form>
+</div>
+
           </div>
         </section>
 
@@ -74,10 +79,11 @@ const Footer = () => {
 </div>
       </div>
 
-      <div className="mt-8 border-t border-gray-700 pt-6 text-center text-gray-500">
+      {/* <div className="mt-8 border-t border-gray-700 pt-6 text-center text-gray-500">
         <p>© 2024 Korvato כל הזכויות שמורות</p>
-      </div>
+      </div> */}
     </footer>
+    
   );
 }
 

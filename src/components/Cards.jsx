@@ -1,4 +1,6 @@
 import React from 'react';
+import {motion} from 'framer-motion';
+import { fadeIn } from "../components/variants"
 
 const Cards = () => {
   return (
@@ -12,8 +14,16 @@ const Cards = () => {
           </p>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 animate__animated animate__bounce">
-          <a
+        <motion.div
+   
+        
+        className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 animate__animated animate__bounce">
+          <motion.a
+          variants={fadeIn("up",0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount:0.7}}
+
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#"
           >
@@ -27,9 +37,15 @@ const Cards = () => {
             <p className="mt-1 text-sm text-gray-300">
               אמצו את פסגת המסחר האלגוריתמי, תוכנית המסחר הבלעדית של קורבטו. עם האלגוריתם המתקדם והקנייני שלנו, כדי להרחיב את אסטרטגיית המסחר שלך, ומאפשר תובנות והשפעות בזמן אמת עם כל עסקה.
             </p>
-          </a>
+          </motion.a>
 
-          <a
+          <motion.a
+          variants={fadeIn("up",0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount:0.7}}
+
+          
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#"
           >
@@ -43,9 +59,15 @@ const Cards = () => {
             <p className="mt-1 text-sm text-gray-300">
               סחור עם ביטחון באמצעות המערכת של קורבטו. המשלבת קשת רחבה של אסטרטגיות מסחר במערכת חלקה. מתוכנן לקלות ויעילות, הוא מאפשר לך לעקוף ניתוח שוק נרחב ואת הטרחה של אחזקת כתבי עת מקצועיים. גלה את העידן החדש של המסחר היום.
             </p>
-          </a>
+          </motion.a>
 
-          <a
+          <motion.a
+          variants={fadeIn("up",0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount:0.7}}
+
+
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#"
           >
@@ -59,8 +81,8 @@ const Cards = () => {
             <p className="mt-1 text-sm text-gray-300">
               העלה את המסחר שלך לגבהים שאין שני להם. בעוד ביטול סיכונים לחלוטין הוא בלתי אפשרי, המערכת בנויה סביב ניהול סיכונים חכם, מתגאה במה שאנו מחשיבים כאחד האלגוריתמים הטובים ביותר בשוק. עלה לשליטה במסחר עם קורבטו ונווט בשוק המט"ח בדיוק מקסימלי.
             </p>
-          </a>
-        </div>
+          </motion.a>
+        </motion.div>
       </div>
     </section>
   );
