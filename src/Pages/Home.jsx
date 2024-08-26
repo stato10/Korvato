@@ -19,8 +19,9 @@ function Home() {
       <Sec2 />
       <SecRocket />
       <Cards></Cards>
-      <Sec3/>
       <Last></Last>
+      <Sec3/>
+    
       <Footer />
     </div>
   );
