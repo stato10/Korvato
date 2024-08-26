@@ -21,7 +21,6 @@ function Home() {
       <Cards></Cards>
       <Last></Last>
       <Sec3/>
-    
       <Footer />
     </div>
   );
