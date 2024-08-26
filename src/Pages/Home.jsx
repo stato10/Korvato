@@ -20,8 +20,9 @@ function Home() {
       <SecRocket />
       <Cards></Cards>
       <Last></Last>
-      <Sec3/>
       
+      <Sec3/>
+
 
       <Footer />
 
